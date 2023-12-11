@@ -1,0 +1,50 @@
+[
+    {
+        "id": "ecebb80676fd805d",
+        "type": "ui_gauge",
+        "z": "a38318804021b6fd",
+        "name": "",
+        "group": "334f2f02192c5b15",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "YAW",
+        "label": "°",
+        "format": "{{value}}",
+        "min": "43",
+        "max": "54",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "47",
+        "seg2": "48",
+        "diff": false,
+        "className": "",
+        "x": 510,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "334f2f02192c5b15",
+        "type": "ui_group",
+        "name": "ACELEROMETRO",
+        "tab": "51c609132f0334c4",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "51c609132f0334c4",
+        "type": "ui_tab",
+        "name": "Monitoreo",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
